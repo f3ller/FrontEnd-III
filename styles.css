@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+}
+
+.sidebar {
+  width: 30%;
+  background: #1d3557;
+  color: white;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.sidebar input {
+  width: 100%;
+  margin: 4px 0;
+}
+
+.content {
+  width: 70%;
+  padding: 20px;
+  background: white;
+}
+
+input, textarea {
+  width: 100%;
+  margin-top: 4px;
+  padding: 6px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+button {
+  margin-top: 6px;
+  padding: 6px 12px;
+  background-color: #457b9d;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #1d3557;
+}
